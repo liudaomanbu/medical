@@ -1,10 +1,11 @@
 :root {
   color-scheme: light;
+  font-size: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
     "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #20262e;
   background: #f4f6f7;
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 * {
@@ -29,7 +30,7 @@ body {
 .header-inner,
 .document,
 .site-footer {
-  width: min(100% - 32px, 860px);
+  width: min(100% - 96px, 1440px);
   margin-inline: auto;
 }
 
@@ -65,7 +66,7 @@ h1 {
 
 .document {
   min-height: 60vh;
-  padding-block: 34px 52px;
+  padding-block: 40px 64px;
   overflow-wrap: anywhere;
 }
 
@@ -80,7 +81,7 @@ h1 {
 .document p,
 .document ul,
 .document ol {
-  margin-block: 0 16px;
+  margin-block: 0 20px;
 }
 
 .document ul,
@@ -89,7 +90,7 @@ h1 {
 }
 
 .document li {
-  margin-block: 4px;
+  margin-block: 0.65em;
 }
 
 .document li > p {
@@ -140,7 +141,7 @@ h1 {
   .header-inner,
   .document,
   .site-footer {
-    width: min(100% - 24px, 860px);
+    width: calc(100% - 24px);
   }
 
   .header-inner {
@@ -153,8 +154,7 @@ h1 {
   }
 
   .document {
-    padding-block: 26px 42px;
-    font-size: 16px;
+    padding-block: 28px 44px;
   }
 }
 
