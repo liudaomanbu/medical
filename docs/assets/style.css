@@ -80,7 +80,7 @@ h1 {
 .document p,
 .document ul,
 .document ol {
-  margin-block: 0 18px;
+  margin-block: 0 16px;
 }
 
 .document ul,
@@ -89,7 +89,11 @@ h1 {
 }
 
 .document li {
-  margin-block: 7px;
+  margin-block: 4px;
+}
+
+.document li > p {
+  margin-block: 0;
 }
 
 .document li::marker {
